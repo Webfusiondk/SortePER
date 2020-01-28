@@ -10,6 +10,8 @@ namespace SortePER
     {
         List<Player> players;
         public List<Card> cards = new List<Card>();
+
+        //Makes new card objects and puts them in a list of cards
         public void AddCardsToList()
         {
             int cardID = 0;
@@ -60,6 +62,7 @@ namespace SortePER
             players.Add(player);
         }
 
+        //Checks all cards for pari after deal
         public string CheckForPariAfterCardDeal()
         {
             string temp = "";
@@ -82,6 +85,7 @@ namespace SortePER
 
         }
 
+        //callede after eveyturn
         public string CheckForPari(Player curentPlayer)
         {
             string temp = "";
@@ -132,14 +136,9 @@ namespace SortePER
         {
             
             if (curentPlayer.GetType() == typeof(Computer))
-            {
                 curentPlayer.TakeCard(curentPlayer, nextPlayer, userinput);
-            }
             else
-            {
                 curentPlayer.TakeCard(curentPlayer, nextPlayer, userinput);
-
-            }
         }
     }
 }

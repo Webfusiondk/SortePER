@@ -121,8 +121,6 @@ namespace SortePER
                     {
                         nextPlayer = 0;
                     }
-                    //Console.Clear();
-                    //Console.WriteLine("Current player: " + players[i].Name);
                     if (players[i].GetType() == typeof(Human))
                     {
                         Console.WriteLine("Take card from 1 to " + players[nextPlayer].Hand.Count);
