@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortePER", "SortePER\SortePER.csproj", "{4A18F797-D6E2-4D31-9152-5B68FC4F3495}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A18F797-D6E2-4D31-9152-5B68FC4F3495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A18F797-D6E2-4D31-9152-5B68FC4F3495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A18F797-D6E2-4D31-9152-5B68FC4F3495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A18F797-D6E2-4D31-9152-5B68FC4F3495}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3FD91C4-07E7-4395-953B-6CB068F9DE61}
+	EndGlobalSection
+EndGlobal
